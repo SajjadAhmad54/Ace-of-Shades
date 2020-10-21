@@ -470,7 +470,7 @@ footer  .first-paragraph
     {
         display: grid;
         grid-template-rows: 1fr;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto auto;
         grid-gap: 0px;
         justify-items: center; 
         padding: 5px;
