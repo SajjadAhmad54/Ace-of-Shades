@@ -59,7 +59,7 @@
         display: grid;
         grid-template-columns: 1fr auto;
         grid-template-rows: 1fr;
-        grid-gap: 25px;
+        grid-gap: 45px;
         height: 95px;
          align-items: center;
     }  
@@ -365,7 +365,10 @@ margin-bottom: 18px;
     margin-top: 22px;
     font-size: 22px;
     color: #c32c3b;
-    padding-left: 14px;
+    /* padding-left: 14px; */
+    display: grid;
+    grid-template-columns: 38px 63px 153px;
+    grid-template-rows: 1fr;
 }
 .main-container .middle-container .main-content.content-1  i
 {
